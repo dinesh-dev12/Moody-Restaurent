@@ -1,0 +1,699 @@
+$primarycolor:#ffb900;
+$primaryfont:'lato','sans-serief';
+$secondaryfont:'montserrat','sans-serief';
+
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family:$primaryfont;
+    scroll-behavior:smooth;
+}
+
+body{
+    background-color: #242424;
+}
+
+.same{
+    position: relative;
+    right: 1%;
+}
+// Header starts Here
+header{
+    width: 100%;
+    height:140vh;
+    background-image: url("../img//1.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    .nav{
+        background: transparent;
+        margin-top: 2%;
+
+        .navbar-header{
+            
+            span{
+                font-weight:300;
+            }
+
+            .navbar-brand{
+                color:white;
+                font-size: 45px;
+                font-weight: 600;
+                background-color: $primarycolor;
+                padding: 25px 40px 40px 100px;
+            }
+        }
+
+        .navbar-right{
+            margin-right:15%;
+            ul{
+                li{
+                    a{
+                        color: white;
+                        font-size: 35px;
+                        margin: 0 30px;
+                    }
+                }
+
+                li,a:hover{
+                    color: $primarycolor;
+                }
+            }
+        }
+    }
+    
+    .banner{
+        background-color: $primarycolor;
+        margin-top: 20%;
+        height: 220px;
+
+        .h1{
+            color: white;
+            font-weight: 900;
+            font-size:140px;
+            margin: 0;
+        }
+
+        .h2{
+            color: white;
+            font-size: 100px;
+            letter-spacing: 25px;
+            display: inline-block;
+            margin: 0;
+        }
+
+        button{
+            width: 370px;
+            height: 100px;
+            border: 5px solid white;
+            background-color: $primarycolor;
+            font-size: 43px;
+            font-weight: 500;
+            font-family: $primaryfont;
+            color: white;
+            margin-left: 30px;
+        }
+
+        button:hover{
+            background-color: white;
+            color: $primarycolor;
+        }
+    }
+}
+// Header Ends Here
+
+// WhatsNew Starts Here
+.whatsnew{
+    width: 100%;
+    margin: 100px auto;
+
+    .left{
+        z-index: 2;
+
+        .trans{
+            color: white;
+            font-weight: 300;
+            letter-spacing: 10px;
+            position: absolute;
+            transform: rotate( -90deg);
+            left: -22rem;
+            top:13rem;
+            font-size: 45px;
+            font-family:$secondaryfont;
+        }
+
+        h1{
+            font-weight: 600;
+            color: white;
+            font-size: 40px;
+        }
+
+        h2{
+            font-weight:400;
+            color: white;
+            font-size: 36px;
+            margin: auto 16px;
+        }
+
+        .color{
+            background-color: $primarycolor;
+            padding: 10px 0;
+            z-index: 10;
+            margin: 30px 0;
+        }
+    }
+
+    .right{
+        img{
+            width: 100%;
+        }
+
+        img:hover{
+            transform: scale(1.03);
+            transition: 1s;
+        }
+    }
+}
+// WhatsNew Ends Here
+
+// Three-section Start Here
+.three-section{
+    background-color: white;
+    text-align: justify;
+
+    .box{
+        margin-top: 100px;
+        margin-bottom: 100px;
+
+        h1{
+            font-family:$secondaryfont;
+            font-weight:800;
+            color: $primarycolor;
+        }
+
+        h4{
+            color: black;
+            margin-top: 20px;
+        }
+    }
+}
+// Three-section Ends Here
+// Menu Starts Here
+.menu{
+    background-image: url("../img/3.png");
+    background-size: cover;
+    height: 105vh;
+    
+    .brand{
+        h1{
+            text-align: center;
+            color: $primarycolor;
+            margin: 35px 0;
+        }
+    }
+    
+    .border{
+        margin-top: 15px;
+        margin-bottom: 35px;
+        border: 1px solid white;
+        
+        h1{
+            text-align: left;
+            padding: 0 150px;
+            color:$primarycolor;
+        }
+    }
+
+    .yellow-box{
+        background-color: $primarycolor;
+
+        .left{
+            h2{
+                color: white;
+                font-family: $secondaryfont;
+                font-weight: 400;
+                font-size: 26px;
+            }
+        }
+        
+        .price{
+            background-color: #ffda00;
+            h2{
+              color: white;
+              font-weight: 700;
+              margin-top: 45px;
+              font-size: 28px;
+            }
+        }
+
+        .position{
+            position: absolute;
+            top: 100%;
+        }
+    }
+
+    .yellow-footer{
+        border: 2px solid white;
+        margin-top: 6%;
+        
+        h3{
+            color: white;
+            padding:0 120px ;
+        }
+    }
+}
+// Menu Starts Here
+
+//Masterclass Starts here
+.masterclass{
+    background-image: url("../img/4.png");
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    
+    .brand{
+        margin-top: 40px;
+        
+        h1{
+            color: white;
+            font-weight: 700;
+            font-size:40px;
+            
+        }
+    }
+
+    .yellowbox{
+        background-color:$primarycolor;
+        margin-top: 60px;
+        padding: 50px 0;
+
+        h1{
+            color: white;
+            font-size: 50px;
+            text-transform: capitalize;
+            margin: 30px;
+            font-weight: 700;
+        }
+
+        h3{
+            color: white;
+            font-size: 30px;
+            font-weight: 700;
+            margin: 30px;
+        }
+
+        h4{
+            color: white;
+            font-size: 40px;
+            margin-left: 40%;
+        }
+    }
+
+    .button{
+        background-color: $primarycolor;
+        margin-top: 40px;
+        padding: 0 60px;
+        
+        h1{
+            color: white;
+            font-weight: 700;
+            text-transform: capitalize;
+            padding: 20px 10px;
+        }
+    }
+}
+//Masterclass Ends here
+
+//About Starts Here
+.about{
+    margin: 100px auto;
+    
+    h1{
+        color: $primarycolor;
+        text-align: center;
+    }
+
+    p{
+        color: rgb(197, 195, 195);
+        text-align: center;
+        font-size: 17px;
+        font-weight: 300;
+    }
+    
+    h5{
+        color: white;
+        display: inline-block;
+        margin-left: 10%;
+    }
+}
+//About Ends Here
+
+//Gallary Starts Here
+.gallary{
+    .brand{
+        h1{
+            color: $primarycolor;
+            font-weight: 800;
+            font-size: 45px;
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 30px;
+        }
+    }
+
+    img{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .contact{
+        h1{
+            color: white;
+            font-weight: 700;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .left{
+            p{
+                color: white;
+                font-size: 20px;
+            }
+        }
+
+        .right{
+            span{
+                color: black;
+                background-color: white;
+                padding: 10px;
+                font-size: 22px;
+                border-radius: 50%;
+                margin-left: 2%;
+            }
+            
+            span:hover{
+                cursor: pointer;
+                background-color: $primarycolor
+                ;
+            }
+
+            h3{
+                color: white;
+            }
+
+            h1{
+                color: $primarycolor;
+            }
+        }
+        
+        .left,.right{
+            margin-top: 40px ;
+            margin-bottom: 40px ;
+        }
+    }
+}
+//Gallary Ends Here
+
+// Footer Starts here
+footer{
+    background-color: #483400;
+    color: white;
+    list-style-type: none;
+    padding: 40px 0;
+    
+    a{
+        color: white;
+    }
+
+    a:hover{
+        color: white;
+        text-decoration: none;
+    }
+}
+// Footer Ends here
+
+// Media Query Starts Here
+@media(max-width:1398px){
+    header{
+        .nav{
+            .navbar-right{
+                margin-right:5%;
+            }
+        }
+        .banner{
+            .h1,.h2{
+                font-size: 80px;
+            }
+
+            button{
+                width: 200px;
+                height: 65px;
+                font-size: 30px;
+            }
+        }
+    }
+}
+@media(max-width:1200px){
+
+    header{
+        .nav{
+            .navbar-header{
+                .navbar-brand{
+                    font-size: 40px;
+                    padding: 13px;
+                }
+            }
+
+            .navbar-right{
+                ul{
+                    li{
+                        a{
+                            font-size:25px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .banner{
+            .h1,.h2{
+                font-size: 80px;
+            }
+
+            button{
+                width: 220px;
+                height: 85px;
+            }
+        }
+    }
+
+    .whatsnew{
+        .left{
+            h1,h2{
+                font-size: 30px;
+            }
+
+            .color{
+                padding: 5px 30px;
+            }
+        }
+    }
+
+    .three-section{
+        .box{
+            text-align: center;
+        }
+    }
+
+    .gallary{
+        img{
+            height: 40vh;
+        }
+    }
+}
+
+@media(max-width:992px){
+    header{
+        height: 100vh;
+        .nav{
+            .navbar-header{
+                .navbar-brand{
+                    font-size:24px;
+                }
+            }
+            .navbar-right{
+                ul{
+                    li{
+                        a{
+                            font-size:18px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .banner{
+            height: 30%;
+            .h1{
+                font-size: 55px;
+            }
+
+            .h2{
+                font-size: 34px;
+            }
+
+
+            button{
+                width: 170px;
+                height: 65px;
+                font-size: 28px;
+            }
+        }
+    }
+
+    .whatsnew{
+        .left{
+            margin: 50px 0;
+        }
+    }
+
+    .menu{
+        .brand{
+            h1{
+                font-size: 30px;
+            }
+        }
+        .border{
+            h1{
+                text-align: center;
+                font-size: 30px;
+            }
+        }
+
+        .yellow-box{
+            margin-top: 40px;
+            .left{
+                h2{
+                    font-size: 24px;
+                }
+            }
+
+            .price{
+                h2{
+                    font-size: 24px;
+                    margin-top: 40px;
+                }
+            }
+        }
+        .yellow-footer{
+            margin-top: 160px;
+        }
+    }
+
+    .masterclass{
+        .yellowbox{
+            h1,h4{
+                font-size: 30px;
+            }
+        }
+
+        .button{
+            padding: 0;
+            h1{
+                font-size:30px;
+                margin-top: 5px 0;
+            }
+        }
+    }
+}
+
+@media(max-width:598px){
+    
+    .same{
+        position: relative;
+        right: 0;
+    }
+    
+    header{
+        .banner{
+            margin-top: 40%;
+            padding:20px 0;
+            .h1{
+                font-size: 30px;
+            }
+
+            .h2{
+                font-size: 25px;
+                letter-spacing: 12px;
+            }
+
+            button{
+                width: 140px;
+                height: 45px;
+                font-size: 22px;
+                border:2px solid white;
+            }
+        }
+    }
+
+    .whatsnew{
+        margin: 20px 0;
+        .left{
+            margin-bottom: 10px;
+            
+            h1,h2{
+                font-size: 25px;
+            }
+
+            .color{
+                padding: 5px 10px;
+            }
+        }
+
+        .right{
+            margin: 40px 0;
+        }
+
+    }
+
+    .three-section{
+
+        .box{
+            h1{
+                font-size: 25px;
+            }
+
+            h4{
+                font-size: 16px;
+            }
+        }
+    }
+
+    .menu{
+        .border{
+            margin: 0;
+            h1{
+                text-align: center;
+                font-size:23px;
+                padding: 0;
+            }
+        }
+
+        .yellow-box{
+            // margin-top: 40px;
+            .left{
+                h2{
+                    font-size: 15px;
+                }
+            }
+
+            .price{
+                h2{
+                    font-size: 17px;
+                }
+            }
+        }
+        .yellow-footer{
+            padding: 0;
+            h3{
+                font-size: 20px;
+            }
+        }
+    }
+
+    .about{
+        h5{
+            margin-left: 8%;
+        }
+    }
+
+    .gallary{
+        img{
+            height: 26vh;
+            margin-top: 20px;
+        }
+    }
+}
+// Media Query Ends here

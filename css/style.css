@@ -1,0 +1,553 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "lato", "sans-serief";
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #242424;
+}
+
+.same {
+  position: relative;
+  right: 1%;
+}
+
+header {
+  width: 100%;
+  height: 140vh;
+  background-image: url("../img//1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+header .nav {
+  background: transparent;
+  margin-top: 2%;
+}
+
+header .nav .navbar-header span {
+  font-weight: 300;
+}
+
+header .nav .navbar-header .navbar-brand {
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  background-color: #ffb900;
+  padding: 25px 40px 40px 100px;
+}
+
+header .nav .navbar-right {
+  margin-right: 15%;
+}
+
+header .nav .navbar-right ul li a {
+  color: white;
+  font-size: 35px;
+  margin: 0 30px;
+}
+
+header .nav .navbar-right ul li, header .nav .navbar-right ul a:hover {
+  color: #ffb900;
+}
+
+header .banner {
+  background-color: #ffb900;
+  margin-top: 20%;
+  height: 220px;
+}
+
+header .banner .h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 140px;
+  margin: 0;
+}
+
+header .banner .h2 {
+  color: white;
+  font-size: 100px;
+  letter-spacing: 25px;
+  display: inline-block;
+  margin: 0;
+}
+
+header .banner button {
+  width: 370px;
+  height: 100px;
+  border: 5px solid white;
+  background-color: #ffb900;
+  font-size: 43px;
+  font-weight: 500;
+  font-family: "lato", "sans-serief";
+  color: white;
+  margin-left: 30px;
+}
+
+header .banner button:hover {
+  background-color: white;
+  color: #ffb900;
+}
+
+.whatsnew {
+  width: 100%;
+  margin: 100px auto;
+}
+
+.whatsnew .left {
+  z-index: 2;
+}
+
+.whatsnew .left .trans {
+  color: white;
+  font-weight: 300;
+  letter-spacing: 10px;
+  position: absolute;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  left: -22rem;
+  top: 13rem;
+  font-size: 45px;
+  font-family: "montserrat", "sans-serief";
+}
+
+.whatsnew .left h1 {
+  font-weight: 600;
+  color: white;
+  font-size: 40px;
+}
+
+.whatsnew .left h2 {
+  font-weight: 400;
+  color: white;
+  font-size: 36px;
+  margin: auto 16px;
+}
+
+.whatsnew .left .color {
+  background-color: #ffb900;
+  padding: 10px 0;
+  z-index: 10;
+  margin: 30px 0;
+}
+
+.whatsnew .right img {
+  width: 100%;
+}
+
+.whatsnew .right img:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.three-section {
+  background-color: white;
+  text-align: justify;
+}
+
+.three-section .box {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.three-section .box h1 {
+  font-family: "montserrat", "sans-serief";
+  font-weight: 800;
+  color: #ffb900;
+}
+
+.three-section .box h4 {
+  color: black;
+  margin-top: 20px;
+}
+
+.menu {
+  background-image: url("../img/3.png");
+  background-size: cover;
+  height: 105vh;
+}
+
+.menu .brand h1 {
+  text-align: center;
+  color: #ffb900;
+  margin: 35px 0;
+}
+
+.menu .border {
+  margin-top: 15px;
+  margin-bottom: 35px;
+  border: 1px solid white;
+}
+
+.menu .border h1 {
+  text-align: left;
+  padding: 0 150px;
+  color: #ffb900;
+}
+
+.menu .yellow-box {
+  background-color: #ffb900;
+}
+
+.menu .yellow-box .left h2 {
+  color: white;
+  font-family: "montserrat", "sans-serief";
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.menu .yellow-box .price {
+  background-color: #ffda00;
+}
+
+.menu .yellow-box .price h2 {
+  color: white;
+  font-weight: 700;
+  margin-top: 45px;
+  font-size: 28px;
+}
+
+.menu .yellow-box .position {
+  position: absolute;
+  top: 100%;
+}
+
+.menu .yellow-footer {
+  border: 2px solid white;
+  margin-top: 6%;
+}
+
+.menu .yellow-footer h3 {
+  color: white;
+  padding: 0 120px;
+}
+
+.masterclass {
+  background-image: url("../img/4.png");
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+}
+
+.masterclass .brand {
+  margin-top: 40px;
+}
+
+.masterclass .brand h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.masterclass .yellowbox {
+  background-color: #ffb900;
+  margin-top: 60px;
+  padding: 50px 0;
+}
+
+.masterclass .yellowbox h1 {
+  color: white;
+  font-size: 50px;
+  text-transform: capitalize;
+  margin: 30px;
+  font-weight: 700;
+}
+
+.masterclass .yellowbox h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 30px;
+}
+
+.masterclass .yellowbox h4 {
+  color: white;
+  font-size: 40px;
+  margin-left: 40%;
+}
+
+.masterclass .button {
+  background-color: #ffb900;
+  margin-top: 40px;
+  padding: 0 60px;
+}
+
+.masterclass .button h1 {
+  color: white;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 20px 10px;
+}
+
+.about {
+  margin: 100px auto;
+}
+
+.about h1 {
+  color: #ffb900;
+  text-align: center;
+}
+
+.about p {
+  color: #c5c3c3;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.about h5 {
+  color: white;
+  display: inline-block;
+  margin-left: 10%;
+}
+
+.gallary .brand h1 {
+  color: #ffb900;
+  font-weight: 800;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.gallary img {
+  width: 100%;
+  height: 60vh;
+}
+
+.gallary .contact h1 {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.gallary .contact .left p {
+  color: white;
+  font-size: 20px;
+}
+
+.gallary .contact .right span {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  font-size: 22px;
+  border-radius: 50%;
+  margin-left: 2%;
+}
+
+.gallary .contact .right span:hover {
+  cursor: pointer;
+  background-color: #ffb900;
+}
+
+.gallary .contact .right h3 {
+  color: white;
+}
+
+.gallary .contact .right h1 {
+  color: #ffb900;
+}
+
+.gallary .contact .left, .gallary .contact .right {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #483400;
+  color: white;
+  list-style-type: none;
+  padding: 40px 0;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 1398px) {
+  header .nav .navbar-right {
+    margin-right: 5%;
+  }
+  header .banner .h1, header .banner .h2 {
+    font-size: 80px;
+  }
+  header .banner button {
+    width: 200px;
+    height: 65px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  header .nav .navbar-header .navbar-brand {
+    font-size: 40px;
+    padding: 13px;
+  }
+  header .nav .navbar-right ul li a {
+    font-size: 25px;
+  }
+  header .banner .h1, header .banner .h2 {
+    font-size: 80px;
+  }
+  header .banner button {
+    width: 220px;
+    height: 85px;
+  }
+  .whatsnew .left h1, .whatsnew .left h2 {
+    font-size: 30px;
+  }
+  .whatsnew .left .color {
+    padding: 5px 30px;
+  }
+  .three-section .box {
+    text-align: center;
+  }
+  .gallary img {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 992px) {
+  header {
+    height: 100vh;
+  }
+  header .nav .navbar-header .navbar-brand {
+    font-size: 24px;
+  }
+  header .nav .navbar-right ul li a {
+    font-size: 18px;
+  }
+  header .banner {
+    height: 30%;
+  }
+  header .banner .h1 {
+    font-size: 55px;
+  }
+  header .banner .h2 {
+    font-size: 34px;
+  }
+  header .banner button {
+    width: 170px;
+    height: 65px;
+    font-size: 28px;
+  }
+  .whatsnew .left {
+    margin: 50px 0;
+  }
+  .menu .brand h1 {
+    font-size: 30px;
+  }
+  .menu .border h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .menu .yellow-box {
+    margin-top: 40px;
+  }
+  .menu .yellow-box .left h2 {
+    font-size: 24px;
+  }
+  .menu .yellow-box .price h2 {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  .menu .yellow-footer {
+    margin-top: 160px;
+  }
+  .masterclass .yellowbox h1, .masterclass .yellowbox h4 {
+    font-size: 30px;
+  }
+  .masterclass .button {
+    padding: 0;
+  }
+  .masterclass .button h1 {
+    font-size: 30px;
+    margin-top: 5px 0;
+  }
+}
+
+@media (max-width: 598px) {
+  .same {
+    position: relative;
+    right: 0;
+  }
+  header .banner {
+    margin-top: 40%;
+    padding: 20px 0;
+  }
+  header .banner .h1 {
+    font-size: 30px;
+  }
+  header .banner .h2 {
+    font-size: 25px;
+    letter-spacing: 12px;
+  }
+  header .banner button {
+    width: 140px;
+    height: 45px;
+    font-size: 22px;
+    border: 2px solid white;
+  }
+  .whatsnew {
+    margin: 20px 0;
+  }
+  .whatsnew .left {
+    margin-bottom: 10px;
+  }
+  .whatsnew .left h1, .whatsnew .left h2 {
+    font-size: 25px;
+  }
+  .whatsnew .left .color {
+    padding: 5px 10px;
+  }
+  .whatsnew .right {
+    margin: 40px 0;
+  }
+  .three-section .box h1 {
+    font-size: 25px;
+  }
+  .three-section .box h4 {
+    font-size: 16px;
+  }
+  .menu .border {
+    margin: 0;
+  }
+  .menu .border h1 {
+    text-align: center;
+    font-size: 23px;
+    padding: 0;
+  }
+  .menu .yellow-box .left h2 {
+    font-size: 15px;
+  }
+  .menu .yellow-box .price h2 {
+    font-size: 17px;
+  }
+  .menu .yellow-footer {
+    padding: 0;
+  }
+  .menu .yellow-footer h3 {
+    font-size: 20px;
+  }
+  .about h5 {
+    margin-left: 8%;
+  }
+  .gallary img {
+    height: 26vh;
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
